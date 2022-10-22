@@ -33,7 +33,7 @@
     (if (= (verifica-Tamanho-Lista valor, 0) n) 
         (first valor) 
             (elementoN (pop valor) n)) )
-(println "Exerc3 - Entrada:((1 2 3 4 6 7 8) 7) Saida:"(elementoN '(1 2 3 4 6 7 8) 7))
+(println "Exerc3 - Entrada:((1 2 3 4 6 7 8) 4) Saida:"(elementoN '(1 2 3 4 6 7 8) 4))
 
 ;4. Utilizando  a  linguagem Clojure,  crie  uma 
 ;função  chamada  inverso  que  receba uma lista  e devolva 
